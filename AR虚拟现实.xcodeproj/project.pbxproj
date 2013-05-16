@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		843AE1CE1744D745003493AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843AE1CD1744D745003493AE /* UIKit.framework */; };
+		843AE1D01744D745003493AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843AE1CF1744D745003493AE /* Foundation.framework */; };
+		843AE1D21744D745003493AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843AE1D11744D745003493AE /* CoreGraphics.framework */; };
+		843AE1D81744D745003493AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 843AE1D61744D745003493AE /* InfoPlist.strings */; };
+		843AE1DA1744D745003493AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 843AE1D91744D745003493AE /* main.m */; };
+		843AE1DE1744D745003493AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 843AE1DD1744D745003493AE /* AppDelegate.m */; };
+		843AE1E01744D746003493AE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 843AE1DF1744D746003493AE /* Default.png */; };
+		843AE1E21744D746003493AE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 843AE1E11744D746003493AE /* Default@2x.png */; };
+		843AE1E41744D746003493AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 843AE1E31744D746003493AE /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		843AE1C91744D745003493AE /* AR虚拟现实.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR虚拟现实.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		843AE1CD1744D745003493AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		843AE1CF1744D745003493AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		843AE1D11744D745003493AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		843AE1D51744D745003493AE /* AR虚拟现实-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AR虚拟现实-Info.plist"; sourceTree = "<group>"; };
+		843AE1D71744D745003493AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		843AE1D91744D745003493AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		843AE1DB1744D745003493AE /* AR虚拟现实-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AR虚拟现实-Prefix.pch"; sourceTree = "<group>"; };
+		843AE1DC1744D745003493AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		843AE1DD1744D745003493AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		843AE1DF1744D746003493AE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		843AE1E11744D746003493AE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		843AE1E31744D746003493AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		843AE1C61744D745003493AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843AE1CE1744D745003493AE /* UIKit.framework in Frameworks */,
+				843AE1D01744D745003493AE /* Foundation.framework in Frameworks */,
+				843AE1D21744D745003493AE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		843AE1BE1744D745003493AE = {
+			isa = PBXGroup;
+			children = (
+				843AE1D31744D745003493AE /* AR虚拟现实 */,
+				843AE1CC1744D745003493AE /* Frameworks */,
+				843AE1CA1744D745003493AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		843AE1CA1744D745003493AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				843AE1C91744D745003493AE /* AR虚拟现实.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		843AE1CC1744D745003493AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				843AE1CD1744D745003493AE /* UIKit.framework */,
+				843AE1CF1744D745003493AE /* Foundation.framework */,
+				843AE1D11744D745003493AE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		843AE1D31744D745003493AE /* AR虚拟现实 */ = {
+			isa = PBXGroup;
+			children = (
+				843AE1DC1744D745003493AE /* AppDelegate.h */,
+				843AE1DD1744D745003493AE /* AppDelegate.m */,
+				843AE1D41744D745003493AE /* Supporting Files */,
+			);
+			path = "AR虚拟现实";
+			sourceTree = "<group>";
+		};
+		843AE1D41744D745003493AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				843AE1D51744D745003493AE /* AR虚拟现实-Info.plist */,
+				843AE1D61744D745003493AE /* InfoPlist.strings */,
+				843AE1D91744D745003493AE /* main.m */,
+				843AE1DB1744D745003493AE /* AR虚拟现实-Prefix.pch */,
+				843AE1DF1744D746003493AE /* Default.png */,
+				843AE1E11744D746003493AE /* Default@2x.png */,
+				843AE1E31744D746003493AE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		843AE1C81744D745003493AE /* AR虚拟现实 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843AE1E71744D746003493AE /* Build configuration list for PBXNativeTarget "AR虚拟现实" */;
+			buildPhases = (
+				843AE1C51744D745003493AE /* Sources */,
+				843AE1C61744D745003493AE /* Frameworks */,
+				843AE1C71744D745003493AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR虚拟现实";
+			productName = "AR虚拟现实";
+			productReference = 843AE1C91744D745003493AE /* AR虚拟现实.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		843AE1C01744D745003493AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = bravesoft;
+			};
+			buildConfigurationList = 843AE1C31744D745003493AE /* Build configuration list for PBXProject "AR虚拟现实" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 843AE1BE1744D745003493AE;
+			productRefGroup = 843AE1CA1744D745003493AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				843AE1C81744D745003493AE /* AR虚拟现实 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		843AE1C71744D745003493AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843AE1D81744D745003493AE /* InfoPlist.strings in Resources */,
+				843AE1E01744D746003493AE /* Default.png in Resources */,
+				843AE1E21744D746003493AE /* Default@2x.png in Resources */,
+				843AE1E41744D746003493AE /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		843AE1C51744D745003493AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843AE1DA1744D745003493AE /* main.m in Sources */,
+				843AE1DE1744D745003493AE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		843AE1D61744D745003493AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843AE1D71744D745003493AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		843AE1E51744D746003493AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		843AE1E61744D746003493AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		843AE1E81744D746003493AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AR虚拟现实/AR虚拟现实-Prefix.pch";
+				INFOPLIST_FILE = "AR虚拟现实/AR虚拟现实-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		843AE1E91744D746003493AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AR虚拟现实/AR虚拟现实-Prefix.pch";
+				INFOPLIST_FILE = "AR虚拟现实/AR虚拟现实-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		843AE1C31744D745003493AE /* Build configuration list for PBXProject "AR虚拟现实" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843AE1E51744D746003493AE /* Debug */,
+				843AE1E61744D746003493AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843AE1E71744D746003493AE /* Build configuration list for PBXNativeTarget "AR虚拟现实" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843AE1E81744D746003493AE /* Debug */,
+				843AE1E91744D746003493AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 843AE1C01744D745003493AE /* Project object */;
+}
