@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840EF1F81746055700C5481D /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EF1EB1746055700C5481D /* DDXMLElementAdditions.m */; };
+		840EF1F91746055700C5481D /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EF1EE1746055700C5481D /* NSString+DDXML.m */; };
+		840EF1FA1746055700C5481D /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EF1F11746055700C5481D /* DDXMLDocument.m */; };
+		840EF1FB1746055700C5481D /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EF1F31746055700C5481D /* DDXMLElement.m */; };
+		840EF1FC1746055700C5481D /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EF1F51746055700C5481D /* DDXMLNode.m */; };
+		843AE1CE1744D745003493AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843AE1CD1744D745003493AE /* UIKit.framework */; };
+		843AE1D01744D745003493AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843AE1CF1744D745003493AE /* Foundation.framework */; };
+		843AE1D21744D745003493AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843AE1D11744D745003493AE /* CoreGraphics.framework */; };
+		843AE1D81744D745003493AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 843AE1D61744D745003493AE /* InfoPlist.strings */; };
+		843AE1DA1744D745003493AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 843AE1D91744D745003493AE /* main.m */; };
+		843AE1E01744D746003493AE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 843AE1DF1744D746003493AE /* Default.png */; };
+		843AE1E21744D746003493AE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 843AE1E11744D746003493AE /* Default@2x.png */; };
+		843AE1E41744D746003493AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 843AE1E31744D746003493AE /* Default-568h@2x.png */; };
+		843AE2061744D85D003493AE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843AE2051744D85D003493AE /* AVFoundation.framework */; };
+		843AE2081744D865003493AE /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843AE2071744D865003493AE /* CoreVideo.framework */; };
+		843AE20A1744D86C003493AE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843AE2091744D86C003493AE /* QuartzCore.framework */; };
+		843AE20C1744D8B3003493AE /* metaioSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843AE20B1744D8B3003493AE /* metaioSDK.framework */; };
+		843AE21A1744DB50003493AE /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843AE2191744DB50003493AE /* ImageIO.framework */; };
+		843AE21C1744DB63003493AE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843AE21B1744DB63003493AE /* CoreMedia.framework */; };
+		843AE21E1744DCA1003493AE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843AE21D1744DCA1003493AE /* CoreLocation.framework */; };
+		843AE2201744DCA9003493AE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843AE21F1744DCA9003493AE /* AudioToolbox.framework */; };
+		843AE2221744DCB0003493AE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843AE2211744DCB0003493AE /* OpenGLES.framework */; };
+		843AE2241744DCB6003493AE /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843AE2231744DCB6003493AE /* CoreMotion.framework */; };
+		843AE2261744DCBF003493AE /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 843AE2251744DCBF003493AE /* libxml2.2.dylib */; };
+		843AE2281744DCC5003493AE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 843AE2271744DCC5003493AE /* libz.dylib */; };
+		843AE22E1744DD0C003493AE /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 843AE22B1744DD0C003493AE /* EAGLView.mm */; };
+		843AE22F1744DD0C003493AE /* MetaioSDKViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 843AE22D1744DD0C003493AE /* MetaioSDKViewController.mm */; };
+		843AE2341744DDBD003493AE /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 843AE2331744DDBD003493AE /* AppDelegate.mm */; };
+		843AE2381744E2D9003493AE /* MainViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 843AE2361744E2D8003493AE /* MainViewController.mm */; };
+		843AE2391744E2D9003493AE /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843AE2371744E2D9003493AE /* MainViewController.xib */; };
+		84584E061744EA8000831DF4 /* arelConfig2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 84584DE91744EA8000831DF4 /* arelConfig2.xml */; };
+		84584E071744EA8000831DF4 /* arelTutorial2.html in Resources */ = {isa = PBXBuildFile; fileRef = 84584DEA1744EA8000831DF4 /* arelTutorial2.html */; };
+		84584E1D1744EA8000831DF4 /* Tutorial2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84584E031744EA8000831DF4 /* Tutorial2.xib */; };
+		84584E1E1744EA8000831DF4 /* Tutorial2ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84584E051744EA8000831DF4 /* Tutorial2ViewController.mm */; };
+		84584E211744EC1000831DF4 /* Assets2 in Resources */ = {isa = PBXBuildFile; fileRef = 84584E201744EC1000831DF4 /* Assets2 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		840EF1EA1746055700C5481D /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		840EF1EB1746055700C5481D /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		840EF1ED1746055700C5481D /* NSString+DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDXML.h"; sourceTree = "<group>"; };
+		840EF1EE1746055700C5481D /* NSString+DDXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDXML.m"; sourceTree = "<group>"; };
+		840EF1EF1746055700C5481D /* DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXML.h; sourceTree = "<group>"; };
+		840EF1F01746055700C5481D /* DDXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLDocument.h; sourceTree = "<group>"; };
+		840EF1F11746055700C5481D /* DDXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLDocument.m; sourceTree = "<group>"; };
+		840EF1F21746055700C5481D /* DDXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElement.h; sourceTree = "<group>"; };
+		840EF1F31746055700C5481D /* DDXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElement.m; sourceTree = "<group>"; };
+		840EF1F41746055700C5481D /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLNode.h; sourceTree = "<group>"; };
+		840EF1F51746055700C5481D /* DDXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLNode.m; sourceTree = "<group>"; };
+		840EF1F71746055700C5481D /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
+		843AE1C91744D745003493AE /* ARreal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARreal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		843AE1CD1744D745003493AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		843AE1CF1744D745003493AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		843AE1D11744D745003493AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		843AE1D51744D745003493AE /* ARreal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARreal-Info.plist"; sourceTree = "<group>"; };
+		843AE1D71744D745003493AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		843AE1D91744D745003493AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		843AE1DB1744D745003493AE /* ARreal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARreal-Prefix.pch"; sourceTree = "<group>"; };
+		843AE1DC1744D745003493AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		843AE1DF1744D746003493AE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		843AE1E11744D746003493AE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		843AE1E31744D746003493AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		843AE2051744D85D003493AE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		843AE2071744D865003493AE /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		843AE2091744D86C003493AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		843AE20B1744D8B3003493AE /* metaioSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = metaioSDK.framework; path = ../../Desktop/metaioSDK/SDK_iOS/metaioSDK.framework; sourceTree = "<group>"; };
+		843AE2191744DB50003493AE /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		843AE21B1744DB63003493AE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		843AE21D1744DCA1003493AE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		843AE21F1744DCA9003493AE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		843AE2211744DCB0003493AE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		843AE2231744DCB6003493AE /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		843AE2251744DCBF003493AE /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		843AE2271744DCC5003493AE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		843AE22A1744DD0C003493AE /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		843AE22B1744DD0C003493AE /* EAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EAGLView.mm; sourceTree = "<group>"; };
+		843AE22C1744DD0C003493AE /* MetaioSDKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetaioSDKViewController.h; sourceTree = "<group>"; };
+		843AE22D1744DD0C003493AE /* MetaioSDKViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MetaioSDKViewController.mm; sourceTree = "<group>"; };
+		843AE2331744DDBD003493AE /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		843AE2351744E2D8003493AE /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		843AE2361744E2D8003493AE /* MainViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainViewController.mm; sourceTree = "<group>"; };
+		843AE2371744E2D9003493AE /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		84584DE91744EA8000831DF4 /* arelConfig2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = arelConfig2.xml; sourceTree = "<group>"; };
+		84584DEA1744EA8000831DF4 /* arelTutorial2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = arelTutorial2.html; sourceTree = "<group>"; };
+		84584E031744EA8000831DF4 /* Tutorial2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Tutorial2.xib; sourceTree = "<group>"; };
+		84584E041744EA8000831DF4 /* Tutorial2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tutorial2ViewController.h; sourceTree = "<group>"; };
+		84584E051744EA8000831DF4 /* Tutorial2ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Tutorial2ViewController.mm; sourceTree = "<group>"; };
+		84584E201744EC1000831DF4 /* Assets2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets2; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		843AE1C61744D745003493AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843AE2281744DCC5003493AE /* libz.dylib in Frameworks */,
+				843AE2261744DCBF003493AE /* libxml2.2.dylib in Frameworks */,
+				843AE2241744DCB6003493AE /* CoreMotion.framework in Frameworks */,
+				843AE2221744DCB0003493AE /* OpenGLES.framework in Frameworks */,
+				843AE2201744DCA9003493AE /* AudioToolbox.framework in Frameworks */,
+				843AE21E1744DCA1003493AE /* CoreLocation.framework in Frameworks */,
+				843AE21C1744DB63003493AE /* CoreMedia.framework in Frameworks */,
+				843AE21A1744DB50003493AE /* ImageIO.framework in Frameworks */,
+				843AE20C1744D8B3003493AE /* metaioSDK.framework in Frameworks */,
+				843AE20A1744D86C003493AE /* QuartzCore.framework in Frameworks */,
+				843AE2081744D865003493AE /* CoreVideo.framework in Frameworks */,
+				843AE2061744D85D003493AE /* AVFoundation.framework in Frameworks */,
+				843AE1CE1744D745003493AE /* UIKit.framework in Frameworks */,
+				843AE1D01744D745003493AE /* Foundation.framework in Frameworks */,
+				843AE1D21744D745003493AE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840EF1E81746055700C5481D /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				840EF1E91746055700C5481D /* Additions */,
+				840EF1EC1746055700C5481D /* Categories */,
+				840EF1EF1746055700C5481D /* DDXML.h */,
+				840EF1F01746055700C5481D /* DDXMLDocument.h */,
+				840EF1F11746055700C5481D /* DDXMLDocument.m */,
+				840EF1F21746055700C5481D /* DDXMLElement.h */,
+				840EF1F31746055700C5481D /* DDXMLElement.m */,
+				840EF1F41746055700C5481D /* DDXMLNode.h */,
+				840EF1F51746055700C5481D /* DDXMLNode.m */,
+				840EF1F61746055700C5481D /* Private */,
+			);
+			path = KissXML;
+			sourceTree = "<group>";
+		};
+		840EF1E91746055700C5481D /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				840EF1EA1746055700C5481D /* DDXMLElementAdditions.h */,
+				840EF1EB1746055700C5481D /* DDXMLElementAdditions.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		840EF1EC1746055700C5481D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				840EF1ED1746055700C5481D /* NSString+DDXML.h */,
+				840EF1EE1746055700C5481D /* NSString+DDXML.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		840EF1F61746055700C5481D /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				840EF1F71746055700C5481D /* DDXMLPrivate.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		843AE1BE1744D745003493AE = {
+			isa = PBXGroup;
+			children = (
+				843AE20B1744D8B3003493AE /* metaioSDK.framework */,
+				843AE1D31744D745003493AE /* AR虚拟现实 */,
+				843AE1CC1744D745003493AE /* Frameworks */,
+				843AE1CA1744D745003493AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		843AE1CA1744D745003493AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				843AE1C91744D745003493AE /* ARreal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		843AE1CC1744D745003493AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				843AE2271744DCC5003493AE /* libz.dylib */,
+				843AE2251744DCBF003493AE /* libxml2.2.dylib */,
+				843AE2231744DCB6003493AE /* CoreMotion.framework */,
+				843AE2211744DCB0003493AE /* OpenGLES.framework */,
+				843AE21F1744DCA9003493AE /* AudioToolbox.framework */,
+				843AE21D1744DCA1003493AE /* CoreLocation.framework */,
+				843AE20D1744D8CA003493AE /* AVCapture */,
+				843AE1CD1744D745003493AE /* UIKit.framework */,
+				843AE1CF1744D745003493AE /* Foundation.framework */,
+				843AE1D11744D745003493AE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		843AE1D31744D745003493AE /* AR虚拟现实 */ = {
+			isa = PBXGroup;
+			children = (
+				843AE1DC1744D745003493AE /* AppDelegate.h */,
+				843AE2331744DDBD003493AE /* AppDelegate.mm */,
+				843AE2351744E2D8003493AE /* MainViewController.h */,
+				843AE2361744E2D8003493AE /* MainViewController.mm */,
+				843AE2371744E2D9003493AE /* MainViewController.xib */,
+				840EF1E81746055700C5481D /* KissXML */,
+				843AE2291744DD0C003493AE /* Metaio */,
+				843AE1D41744D745003493AE /* Supporting Files */,
+			);
+			path = "AR虚拟现实";
+			sourceTree = "<group>";
+		};
+		843AE1D41744D745003493AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				843AE1D51744D745003493AE /* ARreal-Info.plist */,
+				843AE1D61744D745003493AE /* InfoPlist.strings */,
+				843AE1D91744D745003493AE /* main.m */,
+				843AE1DB1744D745003493AE /* ARreal-Prefix.pch */,
+				843AE1DF1744D746003493AE /* Default.png */,
+				843AE1E11744D746003493AE /* Default@2x.png */,
+				843AE1E31744D746003493AE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		843AE20D1744D8CA003493AE /* AVCapture */ = {
+			isa = PBXGroup;
+			children = (
+				843AE21B1744DB63003493AE /* CoreMedia.framework */,
+				843AE2191744DB50003493AE /* ImageIO.framework */,
+				843AE2091744D86C003493AE /* QuartzCore.framework */,
+				843AE2071744D865003493AE /* CoreVideo.framework */,
+				843AE2051744D85D003493AE /* AVFoundation.framework */,
+			);
+			name = AVCapture;
+			sourceTree = "<group>";
+		};
+		843AE2291744DD0C003493AE /* Metaio */ = {
+			isa = PBXGroup;
+			children = (
+				843AE22A1744DD0C003493AE /* EAGLView.h */,
+				843AE22B1744DD0C003493AE /* EAGLView.mm */,
+				843AE22C1744DD0C003493AE /* MetaioSDKViewController.h */,
+				843AE22D1744DD0C003493AE /* MetaioSDKViewController.mm */,
+				84584DE81744EA8000831DF4 /* Tutorial2 */,
+			);
+			path = Metaio;
+			sourceTree = "<group>";
+		};
+		84584DE81744EA8000831DF4 /* Tutorial2 */ = {
+			isa = PBXGroup;
+			children = (
+				84584DE91744EA8000831DF4 /* arelConfig2.xml */,
+				84584DEA1744EA8000831DF4 /* arelTutorial2.html */,
+				84584E031744EA8000831DF4 /* Tutorial2.xib */,
+				84584E041744EA8000831DF4 /* Tutorial2ViewController.h */,
+				84584E051744EA8000831DF4 /* Tutorial2ViewController.mm */,
+				84584E201744EC1000831DF4 /* Assets2 */,
+			);
+			path = Tutorial2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		843AE1C81744D745003493AE /* ARreal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843AE1E71744D746003493AE /* Build configuration list for PBXNativeTarget "ARreal" */;
+			buildPhases = (
+				843AE1C51744D745003493AE /* Sources */,
+				843AE1C61744D745003493AE /* Frameworks */,
+				843AE1C71744D745003493AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARreal;
+			productName = "AR虚拟现实";
+			productReference = 843AE1C91744D745003493AE /* ARreal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		843AE1C01744D745003493AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = bravesoft;
+			};
+			buildConfigurationList = 843AE1C31744D745003493AE /* Build configuration list for PBXProject "ARreal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 843AE1BE1744D745003493AE;
+			productRefGroup = 843AE1CA1744D745003493AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				843AE1C81744D745003493AE /* ARreal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		843AE1C71744D745003493AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843AE1D81744D745003493AE /* InfoPlist.strings in Resources */,
+				843AE1E01744D746003493AE /* Default.png in Resources */,
+				843AE1E21744D746003493AE /* Default@2x.png in Resources */,
+				843AE1E41744D746003493AE /* Default-568h@2x.png in Resources */,
+				843AE2391744E2D9003493AE /* MainViewController.xib in Resources */,
+				84584E061744EA8000831DF4 /* arelConfig2.xml in Resources */,
+				84584E071744EA8000831DF4 /* arelTutorial2.html in Resources */,
+				84584E1D1744EA8000831DF4 /* Tutorial2.xib in Resources */,
+				84584E211744EC1000831DF4 /* Assets2 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		843AE1C51744D745003493AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843AE1DA1744D745003493AE /* main.m in Sources */,
+				843AE22E1744DD0C003493AE /* EAGLView.mm in Sources */,
+				843AE22F1744DD0C003493AE /* MetaioSDKViewController.mm in Sources */,
+				843AE2341744DDBD003493AE /* AppDelegate.mm in Sources */,
+				843AE2381744E2D9003493AE /* MainViewController.mm in Sources */,
+				84584E1E1744EA8000831DF4 /* Tutorial2ViewController.mm in Sources */,
+				840EF1F81746055700C5481D /* DDXMLElementAdditions.m in Sources */,
+				840EF1F91746055700C5481D /* NSString+DDXML.m in Sources */,
+				840EF1FA1746055700C5481D /* DDXMLDocument.m in Sources */,
+				840EF1FB1746055700C5481D /* DDXMLElement.m in Sources */,
+				840EF1FC1746055700C5481D /* DDXMLNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		843AE1D61744D745003493AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843AE1D71744D745003493AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		843AE1E51744D746003493AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lxml2";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		843AE1E61744D746003493AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-lxml2";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		843AE1E81744D746003493AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Desktop/metaioSDK/SDK_iOS\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AR虚拟现实/ARreal-Prefix.pch";
+				INFOPLIST_FILE = "AR虚拟现实/ARreal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = ARreal;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		843AE1E91744D746003493AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Desktop/metaioSDK/SDK_iOS\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AR虚拟现实/ARreal-Prefix.pch";
+				INFOPLIST_FILE = "AR虚拟现实/ARreal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = ARreal;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		843AE1C31744D745003493AE /* Build configuration list for PBXProject "ARreal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843AE1E51744D746003493AE /* Debug */,
+				843AE1E61744D746003493AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843AE1E71744D746003493AE /* Build configuration list for PBXNativeTarget "ARreal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843AE1E81744D746003493AE /* Debug */,
+				843AE1E91744D746003493AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 843AE1C01744D745003493AE /* Project object */;
+}
